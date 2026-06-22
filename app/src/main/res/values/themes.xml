@@ -1,9 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.TioChepeDelivery" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+
+    <style name="Theme.TioChepeDelivery" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#D62828</item>
+        <item name="android:navigationBarColor">#FFF8F0</item>
+        <item name="android:colorAccent">#F77F00</item>
     </style>
 
-    <style name="Theme.TioChepeDelivery" parent="Base.Theme.TioChepeDelivery" />
 </resources>
